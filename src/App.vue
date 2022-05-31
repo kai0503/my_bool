@@ -5,16 +5,18 @@
     <h3>666</h3>
     <h2>222</h2>
     <h2>111</h2>
+    <Left></Left>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Left from '@/components/Left.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Left,
   }
 }
 </script>
